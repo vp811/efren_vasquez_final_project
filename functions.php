@@ -3,14 +3,14 @@
 
 function blank_widgets_init() {
 /*------sidebar widger -----*/
-	register_sidebar( array(
+register_sidebar( array(
 		'name' => ('First Widget'),
 		'id' => 'first-widget',
-		'description' => 'Widget for our sidebar on pages',
-		'before_widget' => '<div class="widget-sidebar">',
+		'description' => 'Widget for intro page',
+		'before_widget' => '<div class="widget-intro">',
 		'after_widget' => '</div>',
-		'before_title' => '<h2>',
-		'after_title' => '</h2>'
+		'before_title' => '<h1>',
+		'after_title' => '</h1>'
 	));
 
 /*----first footer widget---*/

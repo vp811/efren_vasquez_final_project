@@ -3,8 +3,10 @@
 <!-- Begin Section Container -->
     <section class="row">
         <div class="twelve columns">
-            <div id="intro"
-
+                <div class="four columns">
+                    <div id="intro">
+                    <?php dynamic_sidebar('first-widget'); ?>
+                </div>
             </div>
 
 
