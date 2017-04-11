@@ -49,27 +49,47 @@ a{
 }
 
 /*--- Menu --- */
+.menu-left {
+    margin-top: 22%;
+    text-align: right;
+}
 
-.blank-menu-header {
-	text-align: center;
-	margin-top: 40px;
+.menu-left ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0% 5%;
+    font-size: 24px;
 }
-.blank-menu-header ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	list-style-image: none;
+
+.menu-right ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0% 8%;
 }
-.blank-menu-header li {
-	display: inline;
+
+.menu-right {
+    margin-top: 22%;
 }
-.blank-menu-header ul li a {
-	text-decoration:none;
-	margin: 4px;
-	padding: 5px 0px 5px 40px;
-	font-weight: 300;
-	font-size: 1.1rem;
+
+.menu-right ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 5%;
+    font-size: 24px;
 }
-.blank-menu-header ul li a:hover {
-	color: #cccccc;
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    height: 200px;
+}
+
+.border {
+    background-color: purple;
+    border: 3px solid purple;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }

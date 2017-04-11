@@ -10,20 +10,36 @@
     " />
 </head>
 <body>
-    <div class="container"> <!-- Begin Header Div -->
+     <!-- Begin Header Div -->
         <header class="row">
-            <div clas="twelve columns">
-                <a href="<?php $url = home_url('/'); echo $url; ?>"><img src="img/tennis.png" alt="tennis"></a>
-                <hr />
-            </div>
-        </header>
-
-        <div clas="row">
-            <div clas="twelve columns">
+            <div class="five columns">
                 <?php wp_nav_menu(array(
+                        'theme_location'     =>  'menu-left',
             			'sort_column'        =>  'menu_order',
-            			'container_class'    =>  'blank-menu-header'
+            			'container_class'    =>  'menu-left'
             		));
                 ?>
             </div>
-        </div>
+
+            <div class="two columns">
+                <div id="logo">
+                    <a href="<?php $url = home_url('/'); echo $url; ?>">
+                        <img src="http://www.userlogos.org/files/logos/Mafia_Penguin/tennis.png" alt="tennis">
+                    </a>
+                </div>
+            </div>
+
+            <div class="five columns">
+                <?php wp_nav_menu(array(
+                        'theme_location'     =>  'menu-right',
+                        'sort_column'        =>  'menu_order',
+                        'container_class'    =>  'menu-right'
+                    ));
+                ?>
+            </div>
+        </header>
+
+    <div class="border">
+    </div>
+
+<div class="container">
