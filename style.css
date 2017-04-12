@@ -11,44 +11,56 @@ Text Domain: efren_vasquez_blank_template
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
 
-html, body{
-	color: #000000;
-	font-size: 14px;
-	line-height: 16px;
+@font-face {
+    font-family: 'header';
+    src: url(fonts/CaviarDreams.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'body';
+    src: url(fonts/Candara.ttf) format('truetype');
+}
+
+html,
+body {
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #f4f4f4;
+    padding-top: 1%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #999999;
     font-weight: 700;
 }
-
-h1{
+h1 {
     font-size: 3.0rem;
 }
 
-h2{
-    font-size: 2.5rem
+h2 {
+    font-size: 2.5rem;
 }
 
-h3{
-    font-size: 2.0rem
+h3 {
+    font-size: 2.0rem;
 }
 
-h4{
-    font-size: 1.5rem
+h4 {
+    font-size: 1.5rem;
 }
 
-h5{
-    font-size: 1.2rem
+h5 {
+    font-size: 1.2rem;
 }
 
-a{
-    color: #red;
+a {
+    color: red;
     font-weight: 700;
     text-decoration: none;
 }
 
-/*--- Menu --- */
+/* ---------------------------- Menu ----------------------- */
 .menu-left {
     margin-top: 22%;
     text-align: right;
@@ -57,14 +69,21 @@ a{
 .menu-left ul li {
     list-style-type: none;
     display: inline;
-    padding: 0% 5%;
+    padding: 0% 8%;
     font-size: 24px;
+    font-family: 'header', sans-serif;
+    color: #282828;
 }
 
-.menu-right ul li {
-    list-style-type: none;
-    display: inline;
-    padding: 0% 8%;
+.menu-left ul li a {
+    color: #282828;
+    padding: 2%;
+}
+
+.menu-left ul li a:hover {
+    background-color: #54008b;
+    border-radius: 15px;
+    color: white;
 }
 
 .menu-right {
@@ -74,8 +93,20 @@ a{
 .menu-right ul li {
     list-style-type: none;
     display: inline;
-    padding-right: 5%;
+    padding: 0% 8%;
     font-size: 24px;
+    font-family: 'header', sans-serif;
+}
+
+.menu-right ul li a {
+    color: #282828;
+    padding: 2%;
+}
+
+.menu-right ul li a:hover {
+    background-color: #54008b;
+    border-radius: 15px;
+    color: white;
 }
 
 #logo {
@@ -83,18 +114,34 @@ a{
 }
 
 #logo img {
-    height: 200px;
+    width: 95%;
 }
 
 .border {
     background-color: purple;
     border: 3px solid purple;
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#intro {
-    background-image: url('img/player.jpg');
-    height: auto;
+/* -----------------------Intro--------------------------- */
+.widget-intro {
+    margin-top: 22%;
+    background-color: blue;
+}
+
+.widget-intro h1 {
+    font-size: 2em;
+    font-family: 'header', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.widget-intro p {
+    font-family: 'body', sans-serif;
+    color: black;
+}
+
+#player {
 }

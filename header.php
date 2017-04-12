@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
     <!-- Links to our Style.css file -->
@@ -24,7 +25,7 @@
             <div class="two columns">
                 <div id="logo">
                     <a href="<?php $url = home_url('/'); echo $url; ?>">
-                        <img src="http://www.userlogos.org/files/logos/Mafia_Penguin/tennis.png" alt="tennis">
+                    <img src="tennis.png" alt="tennis" />
                     </a>
                 </div>
             </div>

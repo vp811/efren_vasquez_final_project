@@ -2,16 +2,25 @@
 
 <!-- Begin Section Container -->
     <section class="row">
-        <div class="twelve columns">
-                <div class="four columns">
+                <div class="six columns">
                     <div id="intro">
-                    <?php dynamic_sidebar('first-widget'); ?>
+                        <?php dynamic_sidebar('first-widget'); ?>
+                    </div>
                 </div>
+
+                <div class="six columns">
+                        <img id="player" src="player.png" alt="player" />
+                </div>
+    </section>
+
+</div>
+    <section class="row">
+        <div class="twelve columns">
+            <div class="border">
             </div>
-
-
         </div>
     </section>
-<!-- End Section -->
+
+<div class="container">
 
 <?php get_footer(); ?>
