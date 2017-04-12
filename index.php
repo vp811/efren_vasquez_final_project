@@ -27,28 +27,34 @@
     <section class="row" id="pages">
             <div class="four columns">
                 <div class="links">
-                    <a href="<?php echo get_page_link( get_page_by_title( AfterSchoolPrograms )->ID ); ?>"><img src="player1.png" alt="lessons"></a>
-                    <div class="overlay">
-                        <p>After School Programs</p>
-                    </div>
+                    <img src="player1.png" alt="lessons">
+                    <a href="<?php echo get_page_link( get_page_by_title( AfterSchoolPrograms )->ID ); ?>">
+                        <div class="overlay">
+                            <p>After School Programs</p>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="four columns">
                 <div class="links">
-                    <a href="<?php echo get_page_link( get_page_by_title( AdultJuniorLessons )->ID ); ?>"><img src="player2.png" alt="lessons"></a>
-                    <div class="overlay">
-                        <p>Adult/Junior Lessons</p>
-                    </div>
+                        <img src="player2.png" alt="lessons">
+                    <a href="<?php echo get_page_link( get_page_by_title( AdultJuniorLessons )->ID ); ?>">
+                        <div class="overlay">
+                            <p>Adult/Junior Lessons</p>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="four columns">
                 <div class="links">
-                    <a href="<?php echo get_page_link( get_page_by_title( AdultLeagues )->ID ); ?>"><img src="player3.png" alt="lessons"></a>
-                    <div class="overlay">
+                    <img src="player3.png" alt="lessons">
+                    <a href="<?php echo get_page_link( get_page_by_title( AdultLeagues )->ID ); ?>">
+                        <div class="overlay">
                         <p>Adult Leagues</p>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
     </section>

@@ -51,7 +51,7 @@ register_sidebar( array(
     'name'          => ('Third Footer Widget'),
     'id'            => 'footer-three',
     'description'   => 'Right Widget in the footer',
-    'before_widget' => '<div class="widget-footer widget-right">',
+    'before_widget' => '<div class="widget-right">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
@@ -73,6 +73,7 @@ function register_my_menus() {
     array(
       'menu-left' => __( 'Menu Left' ),
       'menu-right' => __( 'Menu Right' ),
+      'menu-footer' => __( 'Menu Footer' ),
     )
   );
 }
