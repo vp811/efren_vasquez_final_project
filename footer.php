@@ -5,7 +5,7 @@
                 </div>
 
                 <div class="four columns">
-                    <img id="footer-logo" src="tennis2.png" alt="logo">
+                    <img id="footer-logo" src="https://preview.ibb.co/dEcqQk/tennis2.png" alt="logo">
                 </div>
 
                 <div class="four columns">

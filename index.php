@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="six columns">
-                        <img id="player" src="player.png" alt="player" />
+                        <img id="player" src="https://image.ibb.co/hmjgWQ/player.png" alt="player" />
                 </div>
     </section>
 
@@ -27,7 +27,7 @@
     <section class="row" id="pages">
             <div class="four columns">
                 <div class="links">
-                    <img src="player1.png" alt="lessons">
+                    <img src="https://image.ibb.co/kjy8BQ/player1.png" alt="lessons">
                     <a href="<?php echo get_page_link( get_page_by_title( AfterSchoolPrograms )->ID ); ?>">
                         <div class="overlay">
                             <p>After School Programs</p>
@@ -38,7 +38,7 @@
 
             <div class="four columns">
                 <div class="links">
-                        <img src="player2.png" alt="lessons">
+                        <img src="https://image.ibb.co/kkp4kk/player2.png" alt="lessons">
                     <a href="<?php echo get_page_link( get_page_by_title( AdultJuniorLessons )->ID ); ?>">
                         <div class="overlay">
                             <p>Adult/Junior Lessons</p>
@@ -49,7 +49,7 @@
 
             <div class="four columns">
                 <div class="links">
-                    <img src="player3.png" alt="lessons">
+                    <img src="https://image.ibb.co/k9jFrQ/player3.png" alt="lessons">
                     <a href="<?php echo get_page_link( get_page_by_title( AdultLeagues )->ID ); ?>">
                         <div class="overlay">
                         <p>Adult Leagues</p>
@@ -76,7 +76,7 @@
 
     <div class="row">
         <div class="six columns">
-            <img src="balls.png" alt="balls">
+            <img src="https://image.ibb.co/jghqQk/balls.png" alt="balls">
         </div>
 
         <div class="six columns">

@@ -74,7 +74,7 @@ header {
 .menu-left ul li {
     list-style-type: none;
     display: inline;
-    padding: 0% 8%;
+    padding: 0% 7%;
     font-size: 24px;
     font-family: 'header', sans-serif;
     color: #282828;
@@ -98,7 +98,7 @@ header {
 .menu-right ul li {
     list-style-type: none;
     display: inline;
-    padding: 0% 8%;
+    padding: 0% 7%;
     font-size: 24px;
     font-family: 'header', sans-serif;
 }
@@ -223,7 +223,7 @@ footer {
 }
 
 .widget-left {
-    padding-top: 7%;
+    padding-top: 20%;
 }
 
 .widget-left h3 {
@@ -263,8 +263,155 @@ footer {
     font-family: 'header', sans-serif;
     letter-spacing: 0.1em;
     color: white;
+    margin-top: 17%;
 }
 
 .widget-right {
     padding-left: 33%;
+}
+
+/* -----------------------single page--------------------------- */
+#about {
+    font-family: 'header', sans-serif;
+    color: #282828;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+#post p {
+    font-family: 'body', sans-serif;
+}
+
+.pagetitle {
+    font-family: 'header', sans-serif;
+    font-size: 1.7em;
+    color: #282828;
+    text-decoration: underline;
+}
+
+.entry h4 {
+    font-family: 'header', sans-serif;
+    color: #282828;
+}
+
+.entry {
+    font-family: 'body', sans-serif;
+    color: #282828;
+}
+
+/* -----------------------Contact page--------------------------- */
+#contact {
+    font-family: 'header', sans-serif;
+    color: #282828;
+    margin-top: 5%;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-family: 'header', sans-serif;
+}
+
+.submit-button {
+    display: block;
+    margin: 0% 5%;
+    font-family: 'header', sans-serif;
+    border: 3px solid #54008b;
+    box-shadow: 5px 5px 10px;
+}
+
+.submit-button:hover,
+.reset-button:hover {
+    background-color: #282828;
+}
+
+.reset-button {
+    margin: 0% 5%;
+    font-family: 'header', sans-serif;
+    box-shadow: 5px 5px 10px;
+}
+
+input[type="text"] {
+    width: 25%;
+    border: 1px solid #54008b;
+    box-shadow: 5px 5px 10px;
+}
+
+#message {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #54008b;
+    box-shadow: 5px 5px 10px;
+}
+
+.contact-widget h3 {
+    font-family: 'header', sans-serif;
+    color: #282828;
+}
+
+.contact-widget {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.contact-widget-social h3 {
+    font-family: 'header', sans-serif;
+    color: #282828;
+}
+
+.contact-widget-social {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.contact-widget-social .sfsi_widget {
+    padding-left: 34%;
+}
+
+.contact-widget p {
+    font-family: 'body', sans-serif;
+}
+
+/* -----------------------CPost Page--------------------------- */
+#post-thumbnails {
+    display: inline-block;
+    width: 33%;
+    margin: 7% 0% 0%;
+    text-align: center;
+}
+
+#post-thumbnails a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#post-thumbnails h2 {
+    display: inline;
+    padding: 0%;
+    font-family: 'header', sans-serif;
+    color: #282828;
+    font-size: 1.7em;
+    margin: 2% 0% 0%;
+    width: 10%;
+}
+
+#post-thumbnails img {
+    border: #54008b solid 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+#post-thumbnails img:hover {
+    opacity: 0.7;
 }

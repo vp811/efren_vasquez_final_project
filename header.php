@@ -25,7 +25,7 @@
             <div class="two columns">
                 <div id="logo">
                     <a href="<?php $url = home_url('/'); echo $url; ?>">
-                    <img src="tennis.png" alt="tennis" />
+                    <img src="https://preview.ibb.co/fXjtd5/tennis.png" alt="tennis" />
                     </a>
                 </div>
             </div>
