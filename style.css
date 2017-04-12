@@ -60,6 +60,11 @@ a {
     text-decoration: none;
 }
 
+header {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* ---------------------------- Menu ----------------------- */
 .menu-left {
     margin-top: 22%;
@@ -185,4 +190,22 @@ a {
     font-weight: bold;
     font-family: 'body', sans-serif;
     text-align: center;
+}
+
+#news {
+    margin-top: 12%;
+    color: #282828;
+    font-family: 'header', sans-serif;
+}
+
+.widget-event {
+    margin-top: 10%;
+}
+
+.widget-event p {
+    margin-top: 5%;
+    color: #282828;
+    font-family: 'body', sans-serif;
+    font-size: 1.1em;
+    right: 0;
 }

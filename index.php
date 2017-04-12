@@ -63,9 +63,20 @@
 
 <div class="container">
     <div class="row">
-        <div class="twelve columns" id="upcoming-events">
+        <div class="twelve columns">
+            <h1 id="news">Fort King Tennis Center News and Upcoming Events</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="six columns">
+            <img src="balls.png" alt="balls">
+        </div>
+
+        <div class="six columns">
             <?php dynamic_sidebar('events'); ?>
         </div>
     </div>
+</div>
 
 <?php get_footer(); ?>
