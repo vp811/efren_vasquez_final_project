@@ -2,12 +2,23 @@
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
-/*------sidebar widger -----*/
+/*------Intro Page widget -----*/
 register_sidebar( array(
 		'name' => ('First Widget'),
 		'id' => 'first-widget',
 		'description' => 'Widget for intro page',
 		'before_widget' => '<div class="widget-intro">',
+		'after_widget' => '</div>',
+		'before_title' => '<h1>',
+		'after_title' => '</h1>'
+	));
+
+/*------Upcoming Events widget -----*/
+register_sidebar( array(
+		'name' => ('Upcoming Events'),
+		'id' => 'events',
+		'description' => 'Widget for Upcoming Events',
+		'before_widget' => '<div class="widget-event">',
 		'after_widget' => '</div>',
 		'before_title' => '<h1>',
 		'after_title' => '</h1>'

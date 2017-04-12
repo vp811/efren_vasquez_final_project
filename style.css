@@ -128,7 +128,6 @@ a {
 /* -----------------------Intro--------------------------- */
 .widget-intro {
     margin-top: 22%;
-    background-color: blue;
 }
 
 .widget-intro h1 {
@@ -143,5 +142,47 @@ a {
     color: black;
 }
 
-#player {
+/* -----------------------Pages Icons--------------------------- */
+#pages {
+    margin: 9% 0;
+}
+
+#pages img {
+    border: 3px solid #54008b;
+}
+
+.links {
+    position: relative;
+    width: 90%;
+}
+
+.overlay {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #282828;
+}
+
+.links:hover .overlay {
+    opacity: 0.7;
+}
+
+.links p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: 'body', sans-serif;
+    text-align: center;
 }
