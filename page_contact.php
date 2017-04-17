@@ -17,10 +17,10 @@ Template Name: Contact
             <form method="post" action="contact-form.php">
 
         		<label for="First Name">First Name:</label>
-        		<input type="text" name="Name"  />
+        		<input type="text" name="First Name"  />
 
                 <label for="Last Name">Last Name:</label>
-        		<input type="text" name="Name" id="last-name" />
+        		<input type="text" name="Last-Name" id="last-name" />
 
         		<label for="Email">Email:</label>
         		<input type="text" name="Email" id="email" />

@@ -9,13 +9,11 @@
         			    while ( have_posts() ) {
         			        the_post();
                             if ( has_post_thumbnail() ) { ?>
-					            <div class="post-thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
+    				            <?php } ?>
+                                <div id="single">
+                                    <h2><?php the_title(); ?></h2>
+                                    <?php the_content(); ?>
                                 </div>
-				            <?php } ?>
-
-                            <h2><?php the_title(); ?></h2>
-                            <?php the_content(); ?>
 
                         <?php
         			    } // end while
@@ -24,6 +22,17 @@
         <!-- END LOOP -->
         </div>
     </section>
-<!-- End Section -->
 
+    <section class="row">
+        <div class="six columns" id="nav-post1">
+            <div><p><?php previous_post_link(); ?></p></div>
+        </div>
+
+        <div class="six columns" id="nav-post2">
+            <div><p><?php next_post_link(); ?></p></div>
+        </div>
+    </section>
+
+<!-- End Section -->
+</div>
 <?php get_footer(); ?>

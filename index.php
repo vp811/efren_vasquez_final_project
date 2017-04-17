@@ -28,7 +28,7 @@
             <div class="four columns">
                 <div class="links">
                     <img src="https://image.ibb.co/kjy8BQ/player1.png" alt="lessons">
-                    <a href="<?php echo get_page_link( get_page_by_title( AfterSchoolPrograms )->ID ); ?>">
+                    <a href="<?php echo get_page_link( get_page_by_title( 'After School Programs' )->ID ); ?>">
                         <div class="overlay">
                             <p>After School Programs</p>
                         </div>
@@ -39,7 +39,7 @@
             <div class="four columns">
                 <div class="links">
                         <img src="https://image.ibb.co/kkp4kk/player2.png" alt="lessons">
-                    <a href="<?php echo get_page_link( get_page_by_title( AdultJuniorLessons )->ID ); ?>">
+                    <a href="<?php echo get_page_link( get_page_by_title( 'Adult Junior Lessons' )->ID ); ?>">
                         <div class="overlay">
                             <p>Adult/Junior Lessons</p>
                         </div>
@@ -50,7 +50,7 @@
             <div class="four columns">
                 <div class="links">
                     <img src="https://image.ibb.co/k9jFrQ/player3.png" alt="lessons">
-                    <a href="<?php echo get_page_link( get_page_by_title( AdultLeagues )->ID ); ?>">
+                    <a href="<?php echo get_page_link( get_page_by_title( 'Adult Leagues' )->ID ); ?>">
                         <div class="overlay">
                         <p>Adult Leagues</p>
                         </div>
@@ -76,7 +76,7 @@
 
     <div class="row">
         <div class="six columns">
-            <img src="https://image.ibb.co/jghqQk/balls.png" alt="balls">
+            <img id="balls" src="https://image.ibb.co/jghqQk/balls.png" alt="balls">
         </div>
 
         <div class="six columns">

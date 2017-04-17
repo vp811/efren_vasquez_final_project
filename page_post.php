@@ -8,9 +8,14 @@ Template Name: Posts
 <!-- Begin Section Container -->
     <section class="row">
         <div class="twelve columns">
+            <h2 id="tips"><?php the_title(); ?></h2>
+        </div>
+    </section>
 
+    <section class="row">
+        <div class="twelve columns">
         <!-- BEGIN LOOP -->
-            <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+            <?php query_posts('post_type=post&post_status=publish&posts_per_page=9&paged='. get_query_var('paged')); ?>
                 <div class="row">
                     <div class="twelve columns" >
                             <?php if (have_posts()) :
@@ -20,17 +25,21 @@ Template Name: Posts
                                         <?php the_post_thumbnail('thumbnail');  ?></a>
                                 </div>
                                     <?php
-                                endwhile;
-                            endif; ?>
-                        </div>
+                                endwhile;?>
+                                <!-- Navigation -->
+                                <div class="navigation">
+                                    <?php the_posts_pagination( array( 'mid_size' => 10 ) ); ?>
+                                    <?php    endif; ?>
+                                </div>
                     </div>
                 </div>
         <!-- END LOOP -->
+        </div>
+    </section>
 
-
-
-
-<a href="<?php the_permalink(); ?>">
+    <section class="row">
+        <div class="twelve columns">
+            <?php dynamic_sidebar('post-widget'); ?>
         </div>
     </section>
 <!-- End Section -->

@@ -123,4 +123,15 @@ register_sidebar( array(
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
 ));
+
+/*-------------------------------Post Page --------------*/
+register_sidebar( array(
+    'name'          => ('Post Widget'),
+    'id'            => 'post-widget',
+    'description'   => 'Widget in Post Page',
+    'before_widget' => '<div class="post-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+));
 ?>
